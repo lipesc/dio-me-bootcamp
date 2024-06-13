@@ -8,6 +8,6 @@ public class Escola {
     felipe.nome = "Felipe Sam";
     felipe.idade = 29;
 
-    System.out.println("O aluno " + felipe.nome + " tem " + felipe.idade + " anos de idade!!!!");
+    System.out.println("O aluno " + felipe.nome + " tem " + felipe.idade + " anos de idade.");
   }
 }
