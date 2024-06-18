@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SistemaCadastro",
+      "request": "launch",
+      "mainClass": "SistemaCadastro",
+      "projectName": "construtores_f410b558"
+    },
+    {}
+  ]
+}

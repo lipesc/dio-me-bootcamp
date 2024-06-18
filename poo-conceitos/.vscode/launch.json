@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ComputadorPedrinho",
+      "request": "launch",
+      "mainClass": "ComputadorPedrinho",
+      "projectName": "poo-conceitos_d36f5d5d"
+    },
+    {}
+  ]
+}
