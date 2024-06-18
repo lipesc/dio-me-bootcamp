@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SistemaIbge",
+      "request": "launch",
+      "mainClass": "SistemaIbge",
+      "projectName": "enums_64e1ef79"
+    },
+    {}
+  ]
+}

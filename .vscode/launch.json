@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Escola",
+      "request": "launch",
+      "mainClass": "escola.Escola",
+      "projectName": "bootcamp_ea7ddf36"
+    },
+    {}
+  ]
+}
