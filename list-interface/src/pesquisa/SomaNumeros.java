@@ -12,13 +12,21 @@ public class SomaNumeros {
     this.somaList = new ArrayList<>();
 
   }
-
+  /**
+   * Método para adicionar um novo número à lista.
+   *
+   * @param  numero  o número a ser adicionado à lista
+   */
   public void adicionarNumero(int numero) {
     Numero item = new Numero(numero);
     this.somaList.add(item);
   }
-
-  public int calcularSoma() {
+  /**
+   * Calcula a soma de todos os números na lista somaList.
+   *
+   * @return a soma de todos os números na lista somaList, ou 0 se a lista estiver vazia.
+   */
+   public int calcularSoma() {
 
     int someTotal = 0;
     if (!somaList.isEmpty()) {
@@ -28,7 +36,11 @@ public class SomaNumeros {
     }
     return someTotal;
   }
-
+/**
+ * Encontra o maior número na lista e o retorna.
+ *
+ * @return uma lista contendo o maior número na lista, ou lança uma RuntimeException se a lista estiver vazia
+ */
   public List<Numero> encontrarMaiorNumero() {
     if (!somaList.isEmpty()) {
       Collections.sort(somaList, Comparator.comparingInt(Numero::getNumero).reversed());
@@ -37,7 +49,11 @@ public class SomaNumeros {
     }
     return somaList;
   }
-
+ /**
+* Encontra o menor número na lista e o retorna.
+*
+* @return uma lista contendo o menor número na lista, ou lança uma RuntimeException se a lista estiver vazia
+*/
   public List<Numero> encontrarMenorNumero() {
     if (!somaList.isEmpty()) {
       Collections.sort(somaList, Comparator.comparingInt(Numero::getNumero));
@@ -47,6 +63,11 @@ public class SomaNumeros {
     return somaList;
   }
 
+/**
+* Retorna a lista de números se não estiver vazia, caso contrário, lança uma RuntimeException com a mensagem "A lista está vazia!".
+*
+* @return a lista de números
+*/
   public List<Numero> exibirNumeros() {
     if (!somaList.isEmpty()) {
       return somaList;
